@@ -1,0 +1,139 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0px 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* utility classes */
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.horizontal-align {
+    align-items: center;
+}
+
+/* header */
+header {
+    align-items: center;
+    padding: 0em 5em;
+    margin: 0px 0px 50px 0px;
+    background-color: #FA9C1B;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.search, .login {
+    box-shadow: 9px 9px 5px #F58216;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+
+.search {
+    border-radius: 15px;
+    padding: 0.5em 2em;
+}
+
+.login {
+    background-color: #fff;
+    color: gray;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 0.2em 1em;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* main content */
+.left-col {
+    flex: 2;
+    flex-direction: column;
+}
+
+.right-col {
+    flex: 1;
+    flex-direction: column;
+}
+
+a {
+    color: #FA9C1B
+}
+
+/* left column content */
+
+
+.main-btn {
+    background-color: #FA9C1B;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid #FA9C1B;
+    border-radius: 15px;
+}
+
+
+/* definition box */
+.word-box {
+    background-color: #F5F5F5;
+    padding: 2em;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.name-info {
+    flex: 2;
+}
+
+.name-p {
+    flex: 2;
+    line-height: 1.5em;
+}
+
+
+.fa {
+    margin: 0 1em;
+}
+.btn-div {
+    width: 200px;
+    display: justify;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.thumbsBtn{
+    cursor: pointer;
+    padding: 0.3em 1em;
+    background-color: #FA9C1B;
+    border: solid 1px #FA9C1B;
+    border-radius: 15px;
+}
+
+.btnUp {
+    color: #fff;
+}
+
+.btnDown {
+    color: #333;
+}
+
+/* ---------------------------------DEFINITION PAGE ------------------------------------------------ */
+
+
+.form-elem {
+    margin: 2em;
+}
+

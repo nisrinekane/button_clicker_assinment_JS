@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/user-ninja-solid (1).ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <header class="flexed">
+        <h1><i class="fa-solid fa-user-ninja"></i>Dojonary</h1>
+        <input class="search" type="text" placeholder="search">
+        <button class="login" id="login-btn" onclick="logout(this); alert('You\'ve been logged out');">Log Out</button>
+    </header>
+    <div class="flexed">
+        <div class="left-col">
+            <div class="flexed word-box horizontal-align">
+                <div class="name-info">
+                    <h2>Ninja</h2>
+                    <h3><em>noun</em></h3>
+                    <h3>Plural: <em>ninjas</em> </h3>
+                    <div class="btn-div">
+                        <i class="fa btnUp thumbsBtn" onclick="increment(likeCounter);">&#xf087;</i>
+                        <span id="likeCounter"> 0 </span>
+                        <i class="fa btnDown thumbsBtn" onclick="decrement(likeCounter)">&#xf165;</i>
+                    </div>
+                </div>
+                <div class="name-p">
+                    <p>A practioner skilled in the <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Japanhttps://en.wikipedia.org/wiki/Japan">ninjutsu</a></p>
+                </div>
+            </div>
+
+            <div class="flexed word-box horizontal-align">
+                <div class="name-info">
+                    <h2>Ninja</h2>
+                    <h3><em>noun</em></h3>
+                    <h3>Plural: <em>ninjas</em> </h3>
+                    <div class="btn-div">
+                        <i class="fa btnUp thumbsBtn" onclick="increment(likeCounter2);">&#xf087;</i>
+                        <span id="likeCounter2"> 0 </span>
+                        <i class="fa btnDown thumbsBtn" onclick="decrement(likeCounter2)">&#xf165;</i>
+                    </div>
+                </div>
+                <div class="name-p">
+                    <p>A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-col">
+            <div class="word-box center-text">
+                <h2>Dojonary is defined by <strong>YOU</strong>!</h2>
+                <button class="main-btn" onclick="location.href = 'definition.html';" >Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
